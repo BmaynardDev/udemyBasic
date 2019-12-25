@@ -1,4 +1,5 @@
 ﻿using System;
+using udemyBasic.Functions;
 
 namespace udemyBasic
 {
@@ -6,7 +7,8 @@ namespace udemyBasic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+         randomNumbersFunction.RandomNumbers();
+            
         }
     }
 }
