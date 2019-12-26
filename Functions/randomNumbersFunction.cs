@@ -6,27 +6,17 @@ namespace udemyBasic.Functions
     {
         public static void RandomNumbers()
         {
-            // var random = new Random();
-
-            // for (int i = 0; i < 10; i++)
-            // {
-            //     Console.Write((char)('a' + random.Next(26,26)));
-            // }
-
             var random = new Random();
-            char result;
-            int randomNumber;
 
-            do
-            {
-                randomNumber = random.Next(25, 26);
-                result = (char)('a' + randomNumber);
-                Console.WriteLine("{1} = {0}", result, randomNumber);
+            const int passwordLength = 20;
 
-                if (result == '{' || randomNumber == 6)
-                    break;
+            var buffer = new char[passwordLength];
+            for (int i = 0; i < passwordLength; i++)
+                buffer[i] = (char)('a' + random.Next(0, 26));
 
-            } while (true);
+            var password = new string(buffer);
+
+            Console.WriteLine(password);
         }
     }
 }
