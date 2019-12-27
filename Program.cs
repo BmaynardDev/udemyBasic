@@ -1,5 +1,5 @@
 ﻿using System;
-using udemyBasic.Functions;
+using udemyBasic.Sections.FlowControl;
 
 namespace udemyBasic
 {
@@ -7,7 +7,6 @@ namespace udemyBasic
     {
         static void Main(string[] args)
         {
-         randomNumbersFunction.RandomNumbers();
             
         }
     }

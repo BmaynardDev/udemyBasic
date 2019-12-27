@@ -1,8 +1,8 @@
 using System;
 
-namespace udemyBasic.Functions
+namespace udemyBasic.Sections.FlowControl
 {
-    public class randomNumbersFunction
+    public class RandomNumbersFunction
     {
         public static void RandomNumbers()
         {
@@ -15,8 +15,6 @@ namespace udemyBasic.Functions
                 buffer[i] = (char)('a' + random.Next(0, 26));
 
             var password = new string(buffer);
-
-            Console.WriteLine(password);
         }
     }
 }
