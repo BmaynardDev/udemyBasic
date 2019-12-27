@@ -1,5 +1,6 @@
 ﻿using System;
 using udemyBasic.Sections.FlowControl;
+using udemyBasic.Sections.ArraysAndList;
 
 namespace udemyBasic
 {
@@ -7,7 +8,7 @@ namespace udemyBasic
     {
         static void Main(string[] args)
         {
-            
+            ListSection.ListExample();
         }
     }
 }
