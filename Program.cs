@@ -8,7 +8,7 @@ namespace udemyBasic
     {
         static void Main(string[] args)
         {
-            ArrayAndListExercise.FacebookMessagerLikes();
+            ArrayAndListExercise.ReverseNames();
         }
     }
 }

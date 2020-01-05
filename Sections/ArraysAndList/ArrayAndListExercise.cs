@@ -29,5 +29,18 @@ namespace udemyBasic.Sections.ArraysAndList
 
             Console.ReadKey();
         }
+
+        public static void ReverseNames()
+        {
+            var name = Console.ReadLine();
+            char[] nameArray = name.ToCharArray();
+
+            Array.Reverse(nameArray);
+
+            var reversed = new string(nameArray);
+            Console.WriteLine("Reversed name: " + reversed);
+
+            Console.ReadKey();
+        }
     }
 }
